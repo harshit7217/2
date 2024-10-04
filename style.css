@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'QwitcherGrypen';
+    src: url(Font/Qwitcher_Grypen/QwitcherGrypen-Bold.ttf)format('ttf'),url(Font/Qwitcher_Grypen/QwitcherGrypen-Regular.ttf);
+}
+@font-face {
+    font-family: 'DancingScript';
+    src: url(Font/Dancing_Script/static/DancingScript-Bold.ttf),url(Font/Dancing_Script/static/DancingScript-Medium.ttf),url(Font/Dancing_Script/static/DancingScript-Regular.ttf),url(Font/Dancing_Script/static/DancingScript-SemiBold.ttf);
+}
+
+* {
+    background-color: rgb(205, 218, 181);
+}
+.card {
+    display:flexbox;
+    width: 35%;
+    height: 90%;
+    border: 5px solid orange;
+    margin: 1% 20% 5% 35%;
+    background-image: url(Images/celebrate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 21%;
+    border-bottom-left-radius: 21%;
+}
+
+h3,i{
+    background: none;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 10px black;
+}
+center,img,p,sup,b {
+    background: none;
+}
+p {
+    text-align: center;
+    color: orangered;
+    font-style: bold;
+    font-style: italic;
+}
+h1 {
+    background: none;
+    text-align: center;
+    font-style: italic;
+    font-family: "QwitcherGrypen";
+    font-weight: 700;
+    font-size: 500%;
+    text-shadow: 1px 1px 2px orange;
+    margin: -6% 0 0 0;
+}
+h2 {
+    background: none;
+    text-align: center;
+    font-size: 250%;
+    font-family: "QwitcherGrypen";
+    font-weight: 900;
+    text-shadow: 2px 2px 4px orange;
+    margin: -4% 0 0 0;
+}
+h3,p {
+    font-size: 120%;
+    font-family: "DancingScript";
+}
+b {
+    font-size:130%;
+}
+h3 {
+    font-size: 103%;
+}
